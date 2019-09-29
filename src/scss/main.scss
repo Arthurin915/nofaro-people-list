@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+html, body, .default-layout, .page-container, #app {
+  height: 100%; width: 100%; 
+}
+
+*,*::before,*::after {
+  box-sizing: inherit;
+  margin:0;
+  padding:0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.mr-1 {
+  margin-right: 1rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.actions {
+  display: flex;
+  color: $primary-color;
+  .icon-container:not(:last-child) {
+    margin-right: 10px;
+  }
+  .icon-container:hover {
+    color: $primary-hover-color;
+    cursor: pointer;
+  } 
+}
+.slot-actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
