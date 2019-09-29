@@ -10,7 +10,7 @@
       <div class="page-title" v-else>
           {{pageTitle}}
       </div>
-      <router-link to="create-person">
+      <router-link to="/create-person">
         <custom-btn>+ Adicionar Perfil</custom-btn>
       </router-link>
     </section>
